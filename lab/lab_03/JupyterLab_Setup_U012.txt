@@ -1,0 +1,24 @@
+Steps to set up Jupyter Lab in Lab U012.
+-----------------------------------------------------------------------
+1. Activate mount
+
+$ ls /shares/ziti-opt
+
+2. Activate the anaconda environment
+
+$ source /shares/ziti-opt/software/anaconda3-2024.06-1/bin/activate
+
+3. Configure Jupyter Lab (only once)
+$ jupyter server --generate-config
+$ jupyter server password
+$ jupyter lab --generate-config
+
+
+4. Start Jupyter Lab
+
+$ jupyter lab --ip 127.0.0.1
+
+
+5. Open in browser 
+http://127.0.0.1:8888 
+
